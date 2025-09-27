@@ -1,0 +1,65 @@
+.quizContainer {
+  display: flex;
+  border-bottom: 1px solid black;
+  gap: 20px;
+  width: 600px;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.quizContainerMain {
+  border: 1px solid black;
+  padding: 20px;
+}
+
+.startBtn {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
+
+.startBtn button {
+  background-color: blueviolet;
+  color: white;
+  padding: 12px 16px;
+  border-radius: 14px;
+  border: none;
+  cursor: pointer;
+}
+
+.difficultyContainer {
+  display: flex;
+  gap: 20px;
+}
+
+.difficultyContainer button {
+  padding: 12px 16px;
+  border-radius: 14px;
+  border: none;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+.difficultyContainer button:disabled {
+  background-color: red;
+}
+
+.typeContainer button {
+  padding: 12px 16px;
+  border-radius: 14px;
+  border: none;
+  background-color: green;
+  color: white;
+  cursor: pointer;
+}
+
+.typeContainer button:disabled {
+  background-color: red;
+}
+
+.typeContainer {
+    display: flex;
+    gap: 20px;
+}

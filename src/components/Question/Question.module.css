@@ -1,0 +1,31 @@
+.optionsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.optionsContainer ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.optionsContainer ul li button {
+  padding: 8px 12px;
+  border-radius: 12px;
+  border: none;
+  background-color: gray;
+  cursor: pointer;
+  color: white;
+  font-weight: bold;
+}
+
+.next {
+  width: 100%;
+  padding: 10px;
+  background-color: green;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
